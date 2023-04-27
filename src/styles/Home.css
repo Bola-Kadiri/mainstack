@@ -1,0 +1,177 @@
+
+.home-container{
+    min-height: 100vh;
+    width: 85%; 
+    padding: 20px 50px 0px 50px;
+}
+
+.home-header{
+    display: flex;
+    justify-content: space-between; 
+}
+.home-header h3{
+    font-size: 20px;
+    color: #131316;
+}
+
+.header-greeting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.header-greeting span{
+    color:#FF5403;
+    font-size: 14px;
+}
+.inner-greet h3{
+   margin-bottom: 10px;
+   font-size: 24px;
+}
+.inner-greet p{
+    font-size: 14px;
+}
+.days-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.real-days{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.real-days span{
+    width: 74px;
+    height: 40px;
+    font-size: 14px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* gray/0 */
+
+border: 1px solid #EFF1F6;
+border-radius: 100px;
+}
+.real-days button{
+    width: 84px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid #FF5403;
+    color: #FF5403;
+    background-color: #FFEEE5;
+}
+.real-days .date{
+    width: 114px;
+    height: 40px;
+}
+
+.line-graph{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.inner-graph{
+    height: 400px;
+    width: 100%;
+    max-width: 1200px;
+ 
+}
+
+.doughourt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-doughourt{
+    height: 300px;
+    width: 100%;
+    
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;     
+}
+
+.nigeria{
+    width: 5px;
+    height: 5px;
+    background-color: #599EEA;
+}
+.sample{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.info1{
+   
+}
+
+.info1{
+    margin: 50px 0px
+}
+.location{
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px;
+    
+}
+.view{
+    color: #FF5403
+}
+.nigeria{
+    width: 10px;
+    height: 10px;
+    background-color: #599EEA;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.usa{
+    width: 10px;
+    height: 10px;
+    background-color: #844FF6;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.netherland{
+    width: 10px;
+    height: 10px;
+    background-color: #0FB77A;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.andorra{
+    width: 10px;
+    height: 10px;
+    background-color: #FAB70A;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+
+
+.chart{
+    width: 200px;
+    
+}
+
+.location span{
+    margin-left: 10px;
+}
+.test{
+    width: 100px;
+    height: 100px ;
+    background-color: red;
+}
