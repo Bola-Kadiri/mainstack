@@ -12,16 +12,9 @@ import facebook from '../asset/facebook.png'
 // import twitter from '../asset/twitter.png'
 import Doug_Social from '../chart/Doug_Social'
 
-
-
-
-
 const Home = () => {
       const [country, setContry] = useState([])
       const [source, setSource] = useState([])
-      
-
-  
       
 
       useEffect(()=>{

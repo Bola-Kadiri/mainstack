@@ -175,3 +175,85 @@ border-radius: 100px;
     height: 100px ;
     background-color: red;
 }
+
+@media screen and (max-width: 980px) {
+    .header-greeting{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner-greet{
+        margin: 10px 0px;
+    }
+    .real-days{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-container{
+        padding: 0;
+        width: 100%;
+        
+    }
+    .days-row{
+        width: 100%;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .real-days{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .real-days span, .real-days button{
+        width: 90%;
+        margin-bottom: 10px;
+        height: 40px;
+        font-size: 14px;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+    
+       border: 1px solid #EFF1F6;
+       border-radius: 100px;
+      
+    }
+    .real-days .date{
+        width: 90%;
+    }
+    .real-days button{
+        
+        border-radius: 20px;
+        padding: 5px;
+        border: 1px solid #FF5403;
+        color: #FF5403;
+        background-color: #FFEEE5;
+    }
+    .doughourt{
+        
+       min-height: 100vh;
+       
+       
+    }
+    .sample{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner-doughourt{
+       min-height: 130vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
